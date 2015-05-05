@@ -1,10 +1,9 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Facebook GIFs",
   "description": "This extension animates gifs referenced in Facebook posts.",
   "version": "1.0",
-  "content_scripts":
-  [
+  "content_scripts": [
     {
       "matches": ["https://*.facebook.com/*"],
       "js": ["content_script.js"],
